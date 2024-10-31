@@ -3,10 +3,11 @@
 /* font-family: "Poppins", sans-serif; */
 
 :root {
+  font-size: 16px;
   /* Variable text colors */
   --text-black: #111729;
   --text-dark-gray: #223344;
-  --text-light-gray: #909193;
+  --text-light-gray: #6A758B;
   --text-blue: #2a4dd0;
   --text-white: #ffffff;
   --text-dimmed-white: #f2f9fe;
@@ -14,7 +15,7 @@
   /* Variable background colors */
   --bg-black: #111729;
   --bg-dark-gray: #223344;
-  --bg-light-gray: #909193;
+  --bg-light-gray: #6A758B;
   --bg-blue: #2a4dd0;
   --bg-white: #ffffff;
   --bg-dimmed-white: #f2f9fe;
@@ -24,14 +25,16 @@ body {
   max-width: 640px;
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
-  margin-bottom: 96px;
-  padding: 0 16px;
+  margin-bottom: 6rem;
   line-height: 1.5;
 }
+ .hero-image-section {
+    padding: 0 1rem;
+  }
 
 .information-and-cta-section {
-  margin-top: 128px;
-   padding: 0 48px;
+  margin-top: 8rem;
+   padding: 0 4rem;
 }
 
 h1 {
@@ -42,17 +45,17 @@ h1 {
 }
 
 .main-heading {
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 h2 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.75;
   color: var(--text-light-gray);
 }
 .subheading {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
 .subtitle {
@@ -63,14 +66,14 @@ h2 {
 }
 
 .button-container {
-  margin-top: 64px;
+  margin-top: 4rem;
 }
 
 .btn {
   font-size: 16px;
   font-weight: 500;
   border-radius: 10px;
-  margin-right: 32px;
+  margin-right: 2rem;
   text-decoration: none;
 }
 
@@ -79,7 +82,7 @@ h2 {
   color: var(--text-white);
   background-color: var(--bg-blue);
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 1rem 3rem;
 }
 
 .live-demo-button {
@@ -91,7 +94,7 @@ h2 {
 
 
 .info-checklist-container {
-  margin-top: 96px;
+  margin-top: 6rem;
   display: flex;
   gap: 32px;
 }
@@ -104,4 +107,5 @@ h2 {
   background-position: 0 50%;
   font-size: 14px; 
   color: var(--text-light-gray);
+  font-weight: 500;
 }
