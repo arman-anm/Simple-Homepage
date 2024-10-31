@@ -1,3 +1,105 @@
 /* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: "Poppins", sans-serif; */
+
+:root {
+  /* Variable text colors */
+  --text-black: #111729;
+  --text-dark-gray: #223344;
+  --text-light-gray: #909193;
+  --text-blue: #2a4dd0;
+  --text-white: #ffffff;
+  --text-dimmed-white: #f2f9fe;
+
+  /* Variable background colors */
+  --bg-black: #111729;
+  --bg-dark-gray: #223344;
+  --bg-light-gray: #909193;
+  --bg-blue: #2a4dd0;
+  --bg-white: #ffffff;
+  --bg-dimmed-white: #f2f9fe;
+}
+
+body {
+  max-width: 640px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  padding: 0 32px;
+  line-height: 1.5;
+}
+
+.information-and-cta-section {
+  margin-top: 96px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text-black);
+}
+
+.main-heading {
+  margin-top: 16px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-light-gray);
+}
+.subheading {
+  margin-top: 24px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-dark-gray);
+}
+
+.button-container {
+  margin-top: 36px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-right: 32px;
+}
+
+.get-started-button {
+  text-transform: uppercase;
+  color: var(--text-white);
+  background-color: var(--bg-blue);
+  text-decoration: none;
+  padding: 15px 30px;
+}
+
+.live-demo-button {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.information-and-cta-section {
+  padding: 0 72px;
+}
+
+.info-checklist-container {
+  margin-top: 36px;
+  display: flex;
+  gap: 32px;
+}
+
+.info-checklist {
+  background-image: url('../assets/Done_ring_round_fill.svg');
+  background-size: 24px 24px; 
+  background-repeat: no-repeat;
+  padding-left: 32px;
+  background-position: 0 50%;
+  font-size: 14px; 
+  color: var(--text-light-gray);
+}
