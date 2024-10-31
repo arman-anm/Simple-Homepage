@@ -1,0 +1,26 @@
+@media screen and (min-width: 1280px) {
+  body {
+    max-width: 1280px;
+  }
+  .main-section {
+    padding: 0 5rem;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+  }
+  .hero-image-section {
+    margin: 0;
+    padding: 0; /* Removing previous margin & padding  */
+    order: 2;
+    /* I could simply use "flex-direction: row-reverse;" but used flex order property just for achieving same result with different thing :)  */
+    max-width: 50%;
+  }
+  .information-and-cta-section {
+    margin: 0;
+    padding: 0; /* Removing previous margin & padding  */
+    order: 1;
+    max-width: 40%;
+  }
+}

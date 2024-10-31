@@ -1,0 +1,11 @@
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1024px;
+  }
+  .hero-image-section {
+    padding: 0 14rem;
+  }
+  .information-and-cta-section {
+    padding: 0 7rem;
+  }
+}
