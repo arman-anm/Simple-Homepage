@@ -1,9 +1,9 @@
 @media screen and (min-width: 1280px) {
   body {
     max-width: 1280px;
+    padding: 0 5rem;
   }
   .main-section {
-    padding: 0 5rem;
     display: flex;
     /* flex-direction: row-reverse; */
     justify-content: space-between;

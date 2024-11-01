@@ -113,3 +113,7 @@ h2 {
   color: var(--text-light-gray);
   font-weight: 500;
 }
+
+.desktop-navbar {
+  display: none;
+}

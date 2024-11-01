@@ -6,23 +6,60 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <!-- CSS -->
-     <!-- Reset -->
+    <!-- Reset -->
     <link rel="stylesheet" href="./css/reset.css" />
     <!-- Mobile 640px -->
     <link rel="stylesheet" href="./css/main.css" />
     <!-- Min width 1024px -->
-     <link rel="stylesheet" href="./css/min-width-1024.css">
+    <link rel="stylesheet" href="./css/min-width-1024.css" />
     <!-- Min width 1280px -->
-     <link rel="stylesheet" href="./css/min-width-1280.css">
+    <link rel="stylesheet" href="./css/min-width-1280.css" />
     <!-- Page Title -->
     <title>Simple Homepage by Abu Naser Muhammad Arman</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- Mobile Navbar  -->
+      <nav class="mobile-navbar">
+        <div class="logo">
+          <a href="#home">
+            <img src="./assets/alarado-icon-homepage.svg" alt="Alardo Logo" />
+          </a>
+        </div>
+        <ul id="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#resource">Resource</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </nav>
+
+      <!-- Desktop Navbar  -->
+      <nav class="desktop-navbar">
+        <div class="logo">
+          <a href="#home">
+            <img src="./assets/alarado-icon-homepage.svg" alt="Alardo Logo" />
+          </a>
+        </div>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#resource">Resource</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle" onclick="toggleTheme()">
+          <img src="./assets/Moon_fill.svg" alt="" />
+        </div>
+      </nav>
+    </header>
     <main class="main-section">
       <!-- Hero Image -->
       <section class="hero-image-section">
-        <img src="./assets/hero-image-simple-homepage.png" alt="" class="hero-image"/>
+        <img
+          src="./assets/hero-image-simple-homepage.png"
+          alt=""
+          class="hero-image" />
       </section>
       <!-- Information & CTA -->
       <section class="information-and-cta-section">
@@ -38,9 +75,16 @@
         <!-- CTA -->
         <div class="button-container">
           <!-- Get started button -->
-          <a href="https://example.com" class="btn get-started-button">Get Started</a>
+          <a href="https://example.com" class="btn get-started-button"
+            >Get Started</a
+          >
           <!-- Live demo button -->
-          <a href="https://example.com" target="_blank" class="btn live-demo-button">Get live demo</a>
+          <a
+            href="https://example.com"
+            target="_blank"
+            class="btn live-demo-button"
+            >Get live demo</a
+          >
         </div>
         <!-- Info Section -->
         <div>
