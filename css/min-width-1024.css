@@ -22,7 +22,7 @@
     align-items: center;
   }
   
-  .nav-links {
+  .desktop-nav-links {
     display: flex;
     gap: 3rem;
     align-items: center;
