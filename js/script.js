@@ -17,12 +17,13 @@ function toggleTheme() {
   }
 
   // Toggle logo visibility for light and dark themes
+
   document.querySelectorAll(".element-for-light-theme").forEach(element => {
-    element.classList.toggle("hidden");
+    element.toggleAttribute("hidden");
   });
 
   document.querySelectorAll(".element-for-dark-theme").forEach(element => {
-    element.classList.toggle("hidden");
+    element.toggleAttribute("hidden");
   });
-  
+
 }

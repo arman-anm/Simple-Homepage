@@ -31,7 +31,8 @@
             <img
               src="./assets/alarado-icon-homepage-dark.svg"
               alt="Alardo Logo"
-              class="element-for-dark-theme hidden" />
+              class="element-for-dark-theme"
+              hidden />
           </a>
         </div>
         <!-- Menu -->
@@ -54,7 +55,17 @@
                 <div
                   class="theme-toggle mobile-theme-toggle"
                   onclick="toggleTheme()">
-                  <img src="./assets/Moon_fill.svg" alt="Theme Toggle" />
+                  <!-- For Light theme  -->
+                  <img
+                    src="./assets/theme-toggle-light.svg"
+                    alt=""
+                    class="element-for-dark-theme" />
+                  <!-- For Dark theme, hidden by default -->
+                  <img
+                    src="./assets/theme-toggle-dark.svg"
+                    alt=""
+                    class="element-for-dark-theme"
+                    hidden />
                 </div>
               </li>
             </ul>
@@ -74,7 +85,8 @@
           <img
             src="./assets/alarado-icon-homepage-dark.svg"
             alt="Alardo Logo"
-            class="element-for-dark-theme hidden" />
+            class="element-for-dark-theme"
+            hidden />
         </a>
         <ul id="nav-links" class="desktop-nav-links">
           <li><a href="#about">About Us</a></li>
@@ -83,7 +95,17 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="theme-toggle" onclick="toggleTheme()">
-          <img src="./assets/Moon_fill.svg" alt="Theme Toggle" />
+          <!-- For Light theme  -->
+          <img
+            src="./assets/theme-toggle-light.svg"
+            alt=""
+            class="element-for-dark-theme" />
+          <!-- For Dark theme, hidden by default -->
+          <img
+            src="./assets/theme-toggle-dark.svg"
+            alt=""
+            class="element-for-dark-theme"
+            hidden />
         </div>
       </nav>
     </header>

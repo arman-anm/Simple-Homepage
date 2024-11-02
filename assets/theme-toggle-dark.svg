@@ -1,0 +1,22 @@
+<svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="24" rx="12" fill="#223344"/>
+<circle cx="13" cy="12" r="9.5" fill="white" stroke="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.25 6C14.469 6 14.5785 6 14.6836 6.03137C15.144 6.16892 15.3581 6.69833 15.1228 7.11732C15.0691 7.21289 14.9058 7.37084 14.5792 7.68675C13.4513 8.77764 12.75 10.3069 12.75 12C12.75 13.693 13.4513 15.2224 14.5792 16.3132C14.9058 16.6291 15.0691 16.7871 15.1228 16.8826C15.3581 17.3017 15.144 17.8311 14.6836 17.9686C14.5785 18 14.469 18 14.25 18C10.9363 18 8.25 15.3137 8.25 12C8.25 8.68629 10.9363 6 14.25 6Z" fill="#223344"/>
+<path d="M37.1666 12C37.1666 12.9205 36.4204 13.6667 35.4999 13.6667C34.5794 13.6667 33.8333 12.9205 33.8333 12C33.8333 11.0795 34.5794 10.3333 35.4999 10.3333C36.4204 10.3333 37.1666 11.0795 37.1666 12Z" fill="white" stroke="white"/>
+<path d="M35.5 8.20833V7.125Z" fill="white"/>
+<path d="M35.5 8.20833V7.125" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M35.5 16.875V15.7917Z" fill="white"/>
+<path d="M35.5 16.875V15.7917" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M38.1812 9.31872L38.9472 8.55269Z" fill="white"/>
+<path d="M38.1812 9.31872L38.9472 8.55269" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M32.053 15.4474L32.819 14.6814Z" fill="white"/>
+<path d="M32.053 15.4474L32.819 14.6814" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M39.2917 12H40.3751Z" fill="white"/>
+<path d="M39.2917 12H40.3751" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M30.625 12H31.7083Z" fill="white"/>
+<path d="M30.625 12H31.7083" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M38.1812 14.6813L38.9472 15.4473Z" fill="white"/>
+<path d="M38.1812 14.6813L38.9472 15.4473" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M32.053 8.55261L32.819 9.31864Z" fill="white"/>
+<path d="M32.053 8.55261L32.819 9.31864" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>
