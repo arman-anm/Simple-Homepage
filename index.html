@@ -1,94 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
-  <!-- CSS -->
-  <!-- Reset -->
-  <link rel="stylesheet" href="./css/reset.css" />
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="./css/main.css" />
-  <!-- Responsive Styles -->
-  <link rel="stylesheet" href="./css/min-width-1024.css" />
-  <link rel="stylesheet" href="./css/min-width-1280.css" />
-  <title>Simple Homepage by Abu Naser Muhammad Arman</title>
-</head>
-<body>
-  <header>
-    <!-- Mobile Navbar -->
-    <nav class="mobile-navbar">
-      <!-- Logo -->
-      <div class="logo">
-        <a href="#home">
-          <img src="./assets/alarado-icon-homepage.svg" alt="Alardo Logo" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- CSS -->
+    <!-- Reset -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- Responsive Styles -->
+    <link rel="stylesheet" href="./css/min-width-1024.css" />
+    <link rel="stylesheet" href="./css/min-width-1280.css" />
+    <title>Simple Homepage by Abu Naser Muhammad Arman</title>
+  </head>
+  <body data-theme="light">
+    <header>
+      <!-- Mobile Navbar -->
+      <nav class="mobile-navbar">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#home">
+            <img
+              src="./assets/alarado-icon-homepage.svg"
+              alt="Alardo Logo"
+              class="element-for-light-theme" />
+
+            <!-- Logo for dark theme, hidden by default  -->
+            <img
+              src="./assets/alarado-icon-homepage-dark.svg"
+              alt="Alardo Logo"
+              class="element-for-dark-theme hidden" />
+          </a>
+        </div>
+        <!-- Menu -->
+        <div class="mobile-menu-container">
+          <div class="menu-toggle" onclick="toggleMenu()">
+            <button id="hamburger-button" class="menu-inactive menu-button">
+              &#9776;
+            </button>
+            <button id="close-button" class="menu-active hidden menu-button">
+              &#10006;
+            </button>
+          </div>
+          <div id="mobile-nav-links-container" class="hidden">
+            <ul class="mobile-nav-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#resource">Resource</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="theme-toggle-container">
+                <div
+                  class="theme-toggle mobile-theme-toggle"
+                  onclick="toggleTheme()">
+                  <img src="./assets/Moon_fill.svg" alt="Theme Toggle" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Desktop Navbar -->
+      <nav class="desktop-navbar">
+        <a href="#home" class="logo">
+          <img
+            src="./assets/alarado-icon-homepage.svg"
+            alt="Alardo Logo"
+            class="element-for-light-theme" />
+
+          <!-- Logo for dark theme, hidden by default  -->
+          <img
+            src="./assets/alarado-icon-homepage-dark.svg"
+            alt="Alardo Logo"
+            class="element-for-dark-theme hidden" />
         </a>
-      </div>
-      <!-- Menu -->
-      <div class="mobile-menu-container">
-        <div class="menu-toggle" onclick="toggleMenu()">
-          <button id="hamburger-button" class="menu-inactive menu-button">&#9776;</button>
-          <button id="close-button" class="menu-active hidden menu-button">&#10006;</button>
+        <ul id="nav-links" class="desktop-nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#resource">Resource</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle" onclick="toggleTheme()">
+          <img src="./assets/Moon_fill.svg" alt="Theme Toggle" />
         </div>
-        <div id="mobile-nav-links-container" class="hidden">
-          <ul class="mobile-nav-links">
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#resource">Resource</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="theme-toggle-container">
-              <div class="theme-toggle mobile-theme-toggle" onclick="toggleTheme()">
-                <img src="./assets/Moon_fill.svg" alt="Theme Toggle" />
-              </div>
-            </li>
-          </ul>
+      </nav>
+    </header>
+
+    <main class="main-section">
+      <!-- Hero Image -->
+      <section id="home" class="hero-image-section">
+        <img
+          src="./assets/hero-image-simple-homepage.png"
+          alt="Hero Image"
+          class="hero-image" />
+      </section>
+      <!-- Information & CTA -->
+      <section class="information-and-cta-section">
+        <div class="heading-container">
+          <p class="subtitle">😎 Simple way to communicate</p>
+          <h1 class="main-heading">Actions for Accessibility in Design</h1>
+          <h2 class="subheading">
+            The fastest way to build and deploy websites with reusable
+            components.
+          </h2>
         </div>
-      </div>
-    </nav>
-
-    <!-- Desktop Navbar -->
-    <nav class="desktop-navbar">
-      <a href="#home" class="logo">
-        <img src="./assets/alarado-icon-homepage.svg" alt="Alardo Logo" />
-      </a>
-      <ul id="nav-links" class="desktop-nav-links">
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#product">Product</a></li>
-        <li><a href="#resource">Resource</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="theme-toggle" onclick="toggleTheme()">
-        <img src="./assets/Moon_fill.svg" alt="Theme Toggle" />
-      </div>
-    </nav>
-  </header>
-
-  <main class="main-section">
-    <!-- Hero Image -->
-    <section id="home" class="hero-image-section">
-      <img src="./assets/hero-image-simple-homepage.png" alt="Hero Image" class="hero-image" />
-    </section>
-    <!-- Information & CTA -->
-    <section class="information-and-cta-section">
-      <div class="heading-container">
-        <p class="subtitle">😎 Simple way to communicate</p>
-        <h1 class="main-heading">Actions for Accessibility in Design</h1>
-        <h2 class="subheading">
-          The fastest way to build and deploy websites with reusable components.
-        </h2>
-      </div>
-      <!-- CTA -->
-      <div class="button-container">
-        <a href="https://example.com" class="btn get-started-button">Get Started</a>
-        <a href="https://example.com" target="_blank" class="btn live-demo-button">Get live demo</a>
-      </div>
-      <ul class="info-checklist-container">
-        <li class="info-checklist">No credit card required</li>
-        <li class="info-checklist">No software to install</li>
-      </ul>
-    </section>
-  </main>
-  <script src="./js/script.js"></script>
-</body>
+        <!-- CTA -->
+        <div class="button-container">
+          <a href="https://example.com" class="btn get-started-button"
+            >Get Started</a
+          >
+          <a
+            href="https://example.com"
+            target="_blank"
+            class="btn live-demo-button"
+            >Get live demo</a
+          >
+        </div>
+        <ul class="info-checklist-container">
+          <li class="info-checklist">No credit card required</li>
+          <li class="info-checklist">No software to install</li>
+        </ul>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
