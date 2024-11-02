@@ -92,6 +92,12 @@ body {
   position: relative;
 }
 
+.mobile-menu-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .logo {
   width: 10rem;
 }
@@ -117,6 +123,8 @@ body {
 .menu-active {
   font-weight: 500;
 }
+
+
 
 /* Mobile Nav Links */
 .mobile-nav-links {
