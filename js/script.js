@@ -2,7 +2,7 @@ function toggleMenu() {
   document.getElementById("hamburger-button").classList.toggle("hidden");
 
   document.getElementById("close-button").classList.toggle("hidden");
-
+  
   document.getElementById("mobile-nav-links-container").classList.toggle("hidden");
 }
 
@@ -17,7 +17,6 @@ function toggleTheme() {
   }
 
   // Toggle logo visibility for light and dark themes
-
   document.querySelectorAll(".element-for-light-theme").forEach(element => {
     element.toggleAttribute("hidden");
   });

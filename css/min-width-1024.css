@@ -3,35 +3,35 @@
     max-width: 1024px;
     padding: 3rem 7rem;
   }
-  
+
   .hero-image-section {
     padding: 0 7rem;
   }
-  
+
   .information-and-cta-section {
     padding: 0;
   }
-  
+
   .mobile-navbar {
     display: none;
   }
-  
+
   .desktop-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .desktop-nav-links {
     display: flex;
     gap: 3rem;
     align-items: center;
   }
-  
+
   .main-section {
     margin-top: 6rem;
   }
-  
+
   .logo {
     display: flex;
     justify-content: center;
