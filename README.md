@@ -6,7 +6,8 @@ This simple homepage features a navigation menu, logo, and content sections, alo
 
 ### Screenshot
 
-Large Screen - Dark theme
+Large Screen - Dark theme:
+
 ![Large Screen - Dark theme](./assets/screenshot.png)
 
 ### Key Features
