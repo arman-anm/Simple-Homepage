@@ -3,24 +3,24 @@
     max-width: 1280px;
     padding: 3rem 5rem;
   }
+  
   .main-section {
     display: flex;
-    /* flex-direction: row-reverse; */
     justify-content: space-between;
     align-items: center;
-    min-height: 90vh;
   }
+  
   .hero-image-section {
-    margin: 0;
-    padding: 0; /* Removing previous margin & padding  */
     order: 2;
-    /* I could simply use "flex-direction: row-reverse;" but used flex order property just for achieving same result with different thing :)  */
     max-width: 50%;
-  }
-  .information-and-cta-section {
     margin: 0;
-    padding: 0; /* Removing previous margin & padding  */
+    padding: 0;
+  }
+  
+  .information-and-cta-section {
     order: 1;
     max-width: 40%;
+    margin: 0;
+    padding: 0;
   }
 }
