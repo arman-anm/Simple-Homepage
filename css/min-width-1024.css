@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px) {
   body {
     max-width: 1024px;
-    padding: 0 7rem;
+    padding: 3rem 7rem;
   }
   .hero-image-section {
     padding: 0 7rem;
@@ -30,9 +30,5 @@
     justify-items: center;
     align-items: center;
   }
-  .theme-toggle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ 
 }

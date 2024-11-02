@@ -21,18 +21,42 @@
     <header>
       <!-- Mobile Navbar  -->
       <nav class="mobile-navbar">
+        <!-- Logo -->
         <div class="logo">
           <a href="#home">
             <img src="./assets/alarado-icon-homepage.svg" alt="Alardo Logo" />
           </a>
         </div>
-        <ul id="nav-links">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#product">Product</a></li>
-          <li><a href="#resource">Resource</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <!-- Menu -->
+        <div class="mobile-menu-container">
+          <div
+            class="menu-toggle"
+            onclick="toggleMenu()"
+            class="menu-button-container">
+            <button id="hamburger-button" class="menu-inactive menu-button">
+              <!-- ☰ -->
+              &#9776;
+            </button>
+            <button id="close-button" class="menu-active hidden menu-button">
+              <!-- x-icon -->
+              &#10006;
+            </button>
+          </div>
+          <div id="mobile-nav-links-container" class="hidden">
+            <ul class="mobile-nav-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#resource">Resource</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <!-- Theme Toggle  -->
+              <li class="theme-toggle-container">
+                <div class="theme-toggle mobile-theme-toggle" onclick="toggleTheme()">
+                  <img src="./assets/Moon_fill.svg" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
       <!-- Desktop Navbar  -->

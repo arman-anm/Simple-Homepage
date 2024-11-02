@@ -19,6 +19,7 @@ ol, ul {
 
 li, a {
   text-decoration: none;
+  color: inherit;
 }
 
 img {

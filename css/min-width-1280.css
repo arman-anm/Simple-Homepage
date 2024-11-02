@@ -1,7 +1,7 @@
 @media screen and (min-width: 1280px) {
   body {
     max-width: 1280px;
-    padding: 0 5rem;
+    padding: 3rem 5rem;
   }
   .main-section {
     display: flex;
